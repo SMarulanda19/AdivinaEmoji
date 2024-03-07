@@ -1,5 +1,5 @@
-export default function ButtonSeach(){
+export default function ButtonSeach(props){
     return(
-    <button>Send</button>
+    <button onClick={props.onClick} className="buttonSend">Send</button>
     )
 }
